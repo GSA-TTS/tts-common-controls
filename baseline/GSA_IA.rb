@@ -506,7 +506,7 @@ information security responsibilities; system/network administrators; system
 developersAutomated mechanisms supporting and/or implementing identification
 and authentication capability; automated mechanisms supporting and/or
 implementing replay resistant authentication mechanisms'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that       {{ system.owner }}
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that       {{ system.owner }}
 uses authentication with {{ system.sso_provider }} and that BSP implements replay resistant.  '
   impact 0.3
   tag severity: 'low'
@@ -613,7 +613,7 @@ addressing user identification and authentication; information system design
 documentation; information system configuration settings and associated
 documentation; information system audit records; list of privileged and
 non-privileged information system accounts; other relevant documents or records'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that       {{ system.owner }}
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that       {{ system.owner }}
 uses two factor authentication with OMB, which requires the use of mobile
 device to gain access. '
   impact 0.3
@@ -647,7 +647,7 @@ addressing user identification and authentication; information system design
 documentation; information system configuration settings and associated
 documentation; information system audit records; list of privileged and
 non-privileged information system accounts; other relevant documents or records'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that       {{ system.owner }}
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that       {{ system.owner }}
 uses two factor authentication with OMB, which requires the use of mobile
 device to gain access. '
   impact 0.3
@@ -835,7 +835,7 @@ addressing device identification and authentication; information system design
 documentation; list of devices requiring unique identification and
 authentication; device connection reports; information system configuration
 settings and associated documentation; other relevant documents or records'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that        {{ system.owner }}
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that        {{ system.owner }}
 does not have any devices that require unique identification or authentication
 before connecting. Therefore, this control is not applicable. '
   impact 0.3
@@ -871,7 +871,7 @@ for device identification and authentication; organizational personnel with
 information security responsibilities; system/network administrators; system
 developersAutomated mechanisms supporting and/or implementing device
 identification and authentication capability'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that        {{ system.owner }}
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that        {{ system.owner }}
 does not have any devices that require unique identification or authentication
 before connecting. Therefore, this control is not applicable. '
   impact 0.3
@@ -983,7 +983,7 @@ control 'IA-4.b' do
 responsibilities; organizational personnel with information security
 responsibilities; system/network administrators; system developersAutomated
 mechanisms supporting and/or implementing identifier management'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that this portion of the control
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that this portion of the control
 is inherited from {{ system.sso_provider }}. Therefore, this control  is outside of the scope of
 this assessment. '
   impact 0.3
@@ -1019,7 +1019,7 @@ control 'IA-4.c' do
 responsibilities; organizational personnel with information security
 responsibilities; system/network administrators; system developersAutomated
 mechanisms supporting and/or implementing identifier management'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that this portion of the control
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that this portion of the control
 is inherited from {{ system.sso_provider }}. Therefore, this control  is outside of the scope of
 this assessment. '
   impact 0.3
@@ -1054,7 +1054,7 @@ security plan; information system design documentation; information system
 configuration settings and associated documentation; list of information system
 accounts; list of identifiers generated from physical access control devices;
 other relevant documents or records'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that this portion of the control
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that this portion of the control
 is inherited from {{ system.sso_provider }}. Therefore, this control  is outside of the scope of
 this assessment. '
   impact 0.3
@@ -1087,7 +1087,7 @@ period
 responsibilities; organizational personnel with information security
 responsibilities; system/network administrators; system developersAutomated
 mechanisms supporting and/or implementing identifier management'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that this portion of the control
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that this portion of the control
 is inherited from {{ system.sso_provider }}. Therefore, this control  is outside of the scope of
 this assessment. '
   impact 0.3
@@ -1124,7 +1124,7 @@ security plan; information system design documentation; information system
 configuration settings and associated documentation; list of information system
 accounts; list of identifiers generated from physical access control devices;
 other relevant documents or records'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that {{ system.owner }} disables
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that {{ system.owner }} disables
 accounts after the manual review of the privilege users. However, {{
 system.owner }} has not defined a time period to disable accounts due to
 inactivity. '
@@ -1196,7 +1196,7 @@ identity of:
 responsibilities; organizational personnel with information security
 responsibilities; system/network administratorsAutomated mechanisms supporting
 and/or implementing authenticator management capability'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that {{ system.sso_provider }} manages {{
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that {{ system.sso_provider }} manages {{
 system.owner }} authenticators. Therefore, this control is inherited from {{ system.sso_provider }} and is outside of the scope of this assessment. '
   impact 0.3
   tag severity: 'low'
@@ -1230,7 +1230,7 @@ information system configuration settings and associated documentation; list of
 information system authenticator types; change control records associated with
 managing information system authenticators; information system audit records;
 other relevant documents or records'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that {{ system.sso_provider }} manages {{
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that {{ system.sso_provider }} manages {{
 system.owner }} authenticators. Therefore, this control is inherited from {{ system.sso_provider }} and is outside of the scope of this assessment. '
   impact 0.3
   tag severity: 'low'
@@ -1262,7 +1262,7 @@ their intended use
 responsibilities; organizational personnel with information security
 responsibilities; system/network administratorsAutomated mechanisms supporting
 and/or implementing authenticator management capability'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that {{ system.sso_provider }} manages {{
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that {{ system.sso_provider }} manages {{
 system.owner }} authenticators. Therefore, this control is inherited from {{ system.sso_provider }} and is outside of the scope of this assessment. '
   impact 0.3
   tag severity: 'low'
@@ -1296,7 +1296,7 @@ information system configuration settings and associated documentation; list of
 information system authenticator types; change control records associated with
 managing information system authenticators; information system audit records;
 other relevant documents or records'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that {{ system.sso_provider }} manages {{
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that {{ system.sso_provider }} manages {{
 system.owner }} authenticators. Therefore, this control is inherited from {{ system.sso_provider }} and is outside of the scope of this assessment. '
   impact 0.3
   tag severity: 'low'
@@ -1330,7 +1330,7 @@ information system configuration settings and associated documentation; list of
 information system authenticator types; change control records associated with
 managing information system authenticators; information system audit records;
 other relevant documents or records'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that {{ system.sso_provider }} manages {{
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that {{ system.sso_provider }} manages {{
 system.owner }} authenticators. Therefore, this control is inherited from {{ system.sso_provider }} and is outside of the scope of this assessment. '
   impact 0.3
   tag severity: 'low'
@@ -1364,7 +1364,7 @@ information system configuration settings and associated documentation; list of
 information system authenticator types; change control records associated with
 managing information system authenticators; information system audit records;
 other relevant documents or records'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that {{ system.sso_provider }} manages {{
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that {{ system.sso_provider }} manages {{
 system.owner }} authenticators. Therefore, this control is inherited from {{ system.sso_provider }} and is outside of the scope of this assessment. '
   impact 0.3
   tag severity: 'low'
@@ -1396,7 +1396,7 @@ installation
 responsibilities; organizational personnel with information security
 responsibilities; system/network administratorsAutomated mechanisms supporting
 and/or implementing authenticator management capability'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that {{ system.sso_provider }} manages {{
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that {{ system.sso_provider }} manages {{
 system.owner }} authenticators. Therefore, this control is inherited from {{ system.sso_provider }} and is outside of the scope of this assessment. '
   impact 0.3
   tag severity: 'low'
@@ -1429,7 +1429,7 @@ information system configuration settings and associated documentation; list of
 information system authenticator types; change control records associated with
 managing information system authenticators; information system audit records;
 other relevant documents or records'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that {{ system.sso_provider }} manages {{
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that {{ system.sso_provider }} manages {{
 system.owner }} authenticators. Therefore, this control is inherited from {{ system.sso_provider }} and is outside of the scope of this assessment. '
   impact 0.3
   tag severity: 'low'
@@ -1462,7 +1462,7 @@ information system configuration settings and associated documentation; list of
 information system authenticator types; change control records associated with
 managing information system authenticators; information system audit records;
 other relevant documents or records'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that {{ system.sso_provider }} manages {{
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that {{ system.sso_provider }} manages {{
 system.owner }} authenticators. Therefore, this control is inherited from {{ system.sso_provider }} and is outside of the scope of this assessment. '
   impact 0.3
   tag severity: 'low'
@@ -1495,7 +1495,7 @@ information system configuration settings and associated documentation; list of
 information system authenticator types; change control records associated with
 managing information system authenticators; information system audit records;
 other relevant documents or records'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that {{ system.sso_provider }} manages {{
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that {{ system.sso_provider }} manages {{
 system.owner }} authenticators. Therefore, this control is inherited from {{ system.sso_provider }} and is outside of the scope of this assessment. '
   impact 0.3
   tag severity: 'low'
@@ -1530,7 +1530,7 @@ information system configuration settings and associated documentation; list of
 information system authenticator types; change control records associated with
 managing information system authenticators; information system audit records;
 other relevant documents or records'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that {{ system.sso_provider }} manages {{
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that {{ system.sso_provider }} manages {{
 system.owner }} authenticators. Therefore, this control is inherited from {{ system.sso_provider }} and is outside of the scope of this assessment. '
   impact 0.3
   tag severity: 'low'
@@ -1562,7 +1562,7 @@ period by authenticator type
 responsibilities; organizational personnel with information security
 responsibilities; system/network administratorsAutomated mechanisms supporting
 and/or implementing authenticator management capability'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that {{ system.sso_provider }} manages {{
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that {{ system.sso_provider }} manages {{
 system.owner }} authenticators. Therefore, this control is inherited from {{ system.sso_provider }} and is outside of the scope of this assessment. '
   impact 0.3
   tag severity: 'low'
@@ -1595,7 +1595,7 @@ control 'IA-5.h' do
 responsibilities; organizational personnel with information security
 responsibilities; system/network administratorsAutomated mechanisms supporting
 and/or implementing authenticator management capability'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that {{ system.sso_provider }} manages {{
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that {{ system.sso_provider }} manages {{
 system.owner }} authenticators. Therefore, this control is inherited from {{ system.sso_provider }} and is outside of the scope of this assessment. '
   impact 0.3
   tag severity: 'low'
@@ -1631,7 +1631,7 @@ managing information system authenticators; information system audit records;
 other relevant documents or recordsOrganizational personnel with authenticator
 management responsibilities; organizational personnel with information security
 responsibilities; system/network administrators'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that {{ system.sso_provider }} manages {{
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that {{ system.sso_provider }} manages {{
 system.owner }} authenticators. Therefore, this control is inherited from {{ system.sso_provider }} and is outside of the scope of this assessment. '
   impact 0.3
   tag severity: 'low'
@@ -1663,7 +1663,7 @@ authenticators
 responsibilities; organizational personnel with information security
 responsibilities; system/network administratorsAutomated mechanisms supporting
 and/or implementing authenticator management capability'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that {{ system.sso_provider }} manages {{
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that {{ system.sso_provider }} manages {{
 system.owner }} authenticators. Therefore, this control is inherited from {{ system.sso_provider }} and is outside of the scope of this assessment. '
   impact 0.3
   tag severity: 'low'
@@ -1695,7 +1695,7 @@ those accounts changes
 responsibilities; organizational personnel with information security
 responsibilities; system/network administratorsAutomated mechanisms supporting
 and/or implementing authenticator management capability'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that {{ system.sso_provider }} manages {{
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that {{ system.sso_provider }} manages {{
 system.owner }} authenticators. Therefore, this control is inherited from {{ system.sso_provider }} and is outside of the scope of this assessment. '
   impact 0.3
   tag severity: 'low'
@@ -1732,7 +1732,7 @@ procedures addressing authenticator management; security plan; information
 system design documentation; information system configuration settings and
 associated documentation; password configurations and associated documentation;
 other relevant documents or records'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that {{ system.sso_provider }} manages {{
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that {{ system.sso_provider }} manages {{
 system.owner }} authenticators. Therefore, this control is inherited from {{ system.sso_provider }} and is outside of the scope of this assessment. '
   impact 0.3
   tag severity: 'low'
@@ -1797,7 +1797,7 @@ procedures addressing authenticator management; security plan; information
 system design documentation; information system configuration settings and
 associated documentation; password configurations and associated documentation;
 other relevant documents or records'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that        password
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that        password
 authentication is enforced by {{ system.sso_provider }} and requires that the passwords is a
 minimum of 12 characters, lower and upper case letters, numbers and special
 characters. '
@@ -1830,7 +1830,7 @@ procedures addressing authenticator management; security plan; information
 system design documentation; information system configuration settings and
 associated documentation; password configurations and associated documentation;
 other relevant documents or records'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that        password
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that        password
 authentication is enforced by {{ system.sso_provider }} and requires that the passwords is a
 minimum of 12 characters, lower and upper case letters, numbers and special
 characters. '
@@ -1866,7 +1866,7 @@ responsibilities; organizational personnel with information security
 responsibilities; system/network administrators; system developersAutomated
 mechanisms supporting and/or implementing password-based authenticator
 management capability'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that        password
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that        password
 authentication is enforced by {{ system.sso_provider }} and requires that the passwords is a
 minimum of 12 characters, lower and upper case letters, numbers and special
 characters. However, this control is enforced by {{ system.sso_provider }}. Therefore, it is
@@ -1902,7 +1902,7 @@ procedures addressing authenticator management; security plan; information
 system design documentation; information system configuration settings and
 associated documentation; password configurations and associated documentation;
 other relevant documents or records'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that        changed characters
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that        changed characters
 must be include at least four characters in the new password.'
   impact 0.3
   tag severity: 'low'
@@ -1934,7 +1934,7 @@ responsibilities; organizational personnel with information security
 responsibilities; system/network administrators; system developersAutomated
 mechanisms supporting and/or implementing password-based authenticator
 management capability'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that        changed characters
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that        changed characters
 must be include at least four characters in the new password. However, this
 control is enforced by {{ system.sso_provider }}. Therefore, it is outside of the scope of this
 assessment. '
@@ -1967,7 +1967,7 @@ responsibilities; organizational personnel with information security
 responsibilities; system/network administrators; system developersAutomated
 mechanisms supporting and/or implementing password-based authenticator
 management capability'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that Max enforces passwords
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that Max enforces passwords
 encryption  in storage and transmission. Therefore, it is outside of the scope
 of this assessment. '
   impact 0.3
@@ -2001,7 +2001,7 @@ procedures addressing authenticator management; security plan; information
 system design documentation; information system configuration settings and
 associated documentation; password configurations and associated documentation;
 other relevant documents or records'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that        the minimum lifetime
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that        the minimum lifetime
 password restrictions are enforced in accordance with {{ system.organization }} Policy. '
   impact 0.3
   tag severity: 'low'
@@ -2033,7 +2033,7 @@ procedures addressing authenticator management; security plan; information
 system design documentation; information system configuration settings and
 associated documentation; password configurations and associated documentation;
 other relevant documents or records'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that        the maximum lifetime
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that        the maximum lifetime
 password restrictions is 90 days. '
   impact 0.3
   tag severity: 'low'
@@ -2065,7 +2065,7 @@ responsibilities; organizational personnel with information security
 responsibilities; system/network administrators; system developersAutomated
 mechanisms supporting and/or implementing password-based authenticator
 management capability'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that        the minimum lifetime
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that        the minimum lifetime
 password restrictions are enforced in accordance with {{ system.organization }} Policy.  However, this control is enforced by {{ system.sso_provider }}. Therefore, it is
 outside of the scope of this assessment. '
   impact 0.3
@@ -2098,7 +2098,7 @@ responsibilities; organizational personnel with information security
 responsibilities; system/network administrators; system developersAutomated
 mechanisms supporting and/or implementing password-based authenticator
 management capability'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that        the maximum lifetime
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that        the maximum lifetime
 password restrictions is 90 days. However, this control is enforced by {{ system.sso_provider }}.
 Therefore, it is outside of the scope of this assessment. '
   impact 0.3
@@ -2132,7 +2132,7 @@ procedures addressing authenticator management; security plan; information
 system design documentation; information system configuration settings and
 associated documentation; password configurations and associated documentation;
 other relevant documents or records'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that users cannot re-use any of
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that users cannot re-use any of
 the last 16 passwords.        '
   impact 0.3
   tag severity: 'low'
@@ -2164,7 +2164,7 @@ responsibilities; organizational personnel with information security
 responsibilities; system/network administrators; system developersAutomated
 mechanisms supporting and/or implementing password-based authenticator
 management capability'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that users cannot re-use any of
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that users cannot re-use any of
 the last 16 passwords. However, this control is enforced by {{ system.sso_provider }}. Therefore,
 it is outside of the scope of this assessment.       '
   impact 0.3
@@ -2231,7 +2231,7 @@ management responsibilities; organizational personnel with information security
 responsibilities; system/network administrators; system developersAutomated
 mechanisms supporting and/or implementing PKI-based, authenticator management
 capability'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that {{ system.sso_provider }} validates
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that {{ system.sso_provider }} validates
 certificates by constructing a certification path with status information to an
 accepted trust anchor.  Therefore,  this control is outside of the scope of
 this assessment.  '
@@ -2265,7 +2265,7 @@ management responsibilities; organizational personnel with information security
 responsibilities; system/network administrators; system developersAutomated
 mechanisms supporting and/or implementing PKI-based, authenticator management
 capability'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that {{ system.sso_provider }} validates
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that {{ system.sso_provider }} validates
 certificates by constructing a certification path with status information to an
 accepted trust anchor. Therefore,  this control is outside of the scope of this
 assessment.  '
@@ -2299,7 +2299,7 @@ management responsibilities; organizational personnel with information security
 responsibilities; system/network administrators; system developersAutomated
 mechanisms supporting and/or implementing PKI-based, authenticator management
 capability'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that {{ system.sso_provider }} validates
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that {{ system.sso_provider }} validates
 certificates by constructing a certification path with status information to an
 accepted trust anchor. Therefore,  this control is outside of the scope of this
 assessment.  '
@@ -2332,7 +2332,7 @@ management responsibilities; organizational personnel with information security
 responsibilities; system/network administrators; system developersAutomated
 mechanisms supporting and/or implementing PKI-based, authenticator management
 capability'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that {{ system.sso_provider }} does not have
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that {{ system.sso_provider }} does not have
 private keys. However, {{ system.sso_provider }} is outside of the scope of this assessment. '
   impact 0.3
   tag severity: 'low'
@@ -2363,7 +2363,7 @@ management responsibilities; organizational personnel with information security
 responsibilities; system/network administrators; system developersAutomated
 mechanisms supporting and/or implementing PKI-based, authenticator management
 capability'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that {{ system.sso_provider }} maps the
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that {{ system.sso_provider }} maps the
 authenticated identity to the user account. However, {{ system.sso_provider }} is outside of the
 scope of this assessment. '
   impact 0.3
@@ -2397,7 +2397,7 @@ management responsibilities; organizational personnel with information security
 responsibilities; system/network administrators; system developersAutomated
 mechanisms supporting and/or implementing PKI-based, authenticator management
 capability'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that the implementation of this
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that the implementation of this
 control has not been documented.  '
   impact 0.3
   tag severity: 'low'
@@ -2432,7 +2432,7 @@ information system authenticators; list of authenticators requiring in-person
 registration; list of authenticators requiring trusted third party
 registration; authenticator registration documentation; other relevant
 documents or records'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that {{ system.owner }} {{ system.team }}
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that {{ system.owner }} {{ system.team }}
 approves users that require privilege access and receive request through email.
 '
   impact 0.3
@@ -2468,7 +2468,7 @@ information system authenticators; list of authenticators requiring in-person
 registration; list of authenticators requiring trusted third party
 registration; authenticator registration documentation; other relevant
 documents or records'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that once {{ system.owner }}
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that once {{ system.owner }}
 approves a user, the  user is provided with instructions to authenticate
 through {{ system.sso_provider }} and then {{ system.owner }} {{ system.team }} establishes the  permissions.  '
   impact 0.3
@@ -2503,7 +2503,7 @@ information system authenticators; list of authenticators requiring in-person
 registration; list of authenticators requiring trusted third party
 registration; authenticator registration documentation; other relevant
 documents or records'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that the {{ system.owner }} {{ system.team }}
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that the {{ system.owner }} {{ system.team }}
 is responsible for authorizing registration authority. '
   impact 0.3
   tag severity: 'low'
@@ -2538,7 +2538,7 @@ information system authenticators; list of authenticators requiring in-person
 registration; list of authenticators requiring trusted third party
 registration; authenticator registration documentation; other relevant
 documents or records'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that once {{ system.owner }}
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that once {{ system.owner }}
 approves a user, the  user is provided with instructions to authenticate
 through {{ system.sso_provider }} and then {{ system.owner }} {{ system.team }} establishes the  permissions.  '
   impact 0.3
@@ -2607,7 +2607,7 @@ documentation; automated mechanisms employing hardware token-based
 authentication for the information system; list of token quality requirements;
 information system configuration settings and associated documentation;
 information system audit records; other relevant documents or records'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that token requirements is
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that token requirements is
 defined by {{ system.sso_provider }}. Therefore, this control is inherited from {{ system.sso_provider }} and is
 outside of the scope of this assessment. '
   impact 0.3
@@ -2641,7 +2641,7 @@ responsibilities; organizational personnel with information security
 responsibilities; system/network administrators; system developersAutomated
 mechanisms supporting and/or implementing hardware token-based authenticator
 management capability'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that token requirements is
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that token requirements is
 defined by {{ system.sso_provider }}. Therefore, this control is inherited from {{ system.sso_provider }} and is
 outside of the scope of this assessment. '
   impact 0.3
@@ -2717,7 +2717,7 @@ recordsOrganizational personnel with responsibility for cryptographic module
 authentication; organizational personnel with information security
 responsibilities; system/network administrators; system developersAutomated
 mechanisms supporting and/or implementing cryptographic module authentication'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that {{ system.sso_provider }} uses TLS 1.2.
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that {{ system.sso_provider }} uses TLS 1.2.
 However, {{ system.sso_provider }} is outside of the scope of this assessment. '
   impact 0.3
   tag severity: 'low'
@@ -2754,7 +2754,7 @@ information security responsibilities; system/network administrators;
 organizational personnel with account management responsibilitiesAutomated
 mechanisms supporting and/or implementing identification and authentication
 capability'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that {{ system.owner }} is
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that {{ system.owner }} is
 designed for an agency organizational users only.'
   impact 0.3
   tag severity: 'low'
@@ -2793,7 +2793,7 @@ responsibilities; system/network administrators; system developers;
 organizational personnel with account management responsibilitiesAutomated
 mechanisms supporting and/or implementing identification and authentication
 capability; automated mechanisms that accept and verify PIV credentials'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that {{ system.owner }} is
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that {{ system.owner }} is
 designed for an agency organizational users only.'
   impact 0.3
   tag severity: 'low'
@@ -2832,7 +2832,7 @@ responsibilities; system/network administrators; system developers;
 organizational personnel with account management responsibilitiesAutomated
 mechanisms supporting and/or implementing identification and authentication
 capability; automated mechanisms that accept and verify PIV credentials'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that {{ system.owner }} is
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that {{ system.owner }} is
 designed for an agency organizational users only.'
   impact 0.3
   tag severity: 'low'
@@ -2873,7 +2873,7 @@ system developers; organizational personnel with account management
 responsibilitiesAutomated mechanisms supporting and/or implementing
 identification and authentication capability; automated mechanisms that accept
 FICAM-approved credentials'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that {{ system.owner }} is
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that {{ system.owner }} is
 designed for an agency organizational users only.'
   impact 0.3
   tag severity: 'low'
@@ -2911,7 +2911,7 @@ third-party credential authorizations; third-party credential records; list of
 FICAM-approved information system components procured and implemented by
 organization; acquisition documentation; acquisition contracts for information
 system procurements or services; other relevant documents or records'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that {{ system.owner }} is
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that {{ system.owner }} is
 designed for an agency organizational users only.'
   impact 0.3
   tag severity: 'low'
@@ -2945,7 +2945,7 @@ account management responsibilities; organizational personnel with information
 system security, acquisition, and contracting responsibilitiesAutomated
 mechanisms supporting and/or implementing identification and authentication
 capability'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that {{ system.owner }} is
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that {{ system.owner }} is
 designed for an agency organizational users only.'
   impact 0.3
   tag severity: 'low'
@@ -2987,7 +2987,7 @@ organizational personnel with account management responsibilitiesAutomated
 mechanisms supporting and/or implementing identification and authentication
 capability; automated mechanisms supporting and/or implementing conformance
 with FICAM-issued profiles'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that {{ system.owner }} is
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that {{ system.owner }} is
 designed for an agency organizational users only.'
   impact 0.3
   tag severity: 'low'

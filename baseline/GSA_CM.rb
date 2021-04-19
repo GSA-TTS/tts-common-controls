@@ -405,7 +405,7 @@ information system configuration settings and associated documentation; records
 of information system baseline configuration reviews and updates; information
 system component installations/upgrades and associated records; change control
 records; other relevant documents or records'
-  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017, determined that {{ system.owner }} reviews
+  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} {{ date }}, determined that {{ system.owner }} reviews
 and updates the baseline configuration annually. '
   impact 0.3
   tag severity: 'low'
@@ -476,7 +476,7 @@ information system configuration settings and associated documentation; records
 of information system baseline configuration reviews and updates; information
 system component installations/upgrades and associated records; change control
 records; other relevant documents or records'
-  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017, determined that {{ system.owner }} reviews
+  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} {{ date }}, determined that {{ system.owner }} reviews
 and updates the baseline configuration annually and when there is a system
 change. '
   impact 0.3
@@ -740,7 +740,7 @@ plan; information system architecture and configuration documentation;
 information system configuration settings and associated documentation; copies
 of previous baseline configuration versions; other relevant documents or
 records'
-  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017, determined that {{ system.owner }} records
+  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} {{ date }}, determined that {{ system.owner }} records
 of configuration controlled changes are retained in GitHub. '
   impact 0.3
   tag severity: 'low'
@@ -811,7 +811,7 @@ information system configuration settings and associated documentation; records
 of information system baseline configuration reviews and updates; information
 system component installations/upgrades and associated records; change control
 records; other relevant documents or records'
-  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017, determined that {{ system.owner }} {{ system.team }}
+  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} {{ date }}, determined that {{ system.owner }} {{ system.team }}
 members do not travel with any {{ system.organization }} devices outside of the
 United States. Therefore, this control is not applicable. '
   impact 0.3
@@ -847,7 +847,7 @@ information system configuration settings and associated documentation; records
 of information system baseline configuration reviews and updates; information
 system component installations/upgrades and associated records; change control
 records; other relevant documents or records'
-  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017, determined that {{ system.owner }} {{ system.team }}
+  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} {{ date }}, determined that {{ system.owner }} {{ system.team }}
 members do not travel with any {{ system.organization }} devices outside of the
 United States. Therefore, this control is not applicable. '
   impact 0.3
@@ -879,7 +879,7 @@ locations that the organization deems to be of significant risk
 responsibilities; organizational personnel with information security
 responsibilities; system/network administratorsOrganizational processes for
 managing baseline configurations'
-  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017, determined that {{ system.owner }} {{ system.team }}
+  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} {{ date }}, determined that {{ system.owner }} {{ system.team }}
 members do not travel with any {{ system.organization }} devices outside of the
 United States. Therefore, this control is not applicable. '
   impact 0.3
@@ -916,7 +916,7 @@ information system configuration settings and associated documentation; records
 of information system baseline configuration reviews and updates; information
 system component installations/upgrades and associated records; change control
 records; other relevant documents or records'
-  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017, determined that {{ system.owner }} {{ system.team }}
+  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} {{ date }}, determined that {{ system.owner }} {{ system.team }}
 members do not travel with any {{ system.organization }} devices outside of the
 United States. Therefore, this control is not applicable. '
   impact 0.3
@@ -947,7 +947,7 @@ individuals return
 responsibilities; organizational personnel with information security
 responsibilities; system/network administratorsOrganizational processes for
 managing baseline configurations'
-  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017, determined that {{ system.owner }} {{ system.team }}
+  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} {{ date }}, determined that {{ system.owner }} {{ system.team }}
 members do not travel with any {{ system.organization }} devices outside of the
 United States. Therefore, this control is not applicable. '
   impact 0.3
@@ -1247,7 +1247,7 @@ information system architecture and configuration documentation; security plan;
 change control records; information system audit records; change control audit
 and review reports; agenda /minutes from configuration change control oversight
 meetings; other relevant documents or records'
-  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017, determined that the {{ system.owner }} {{ system.team }}
+  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} {{ date }}, determined that the {{ system.owner }} {{ system.team }}
 is the CCB and provides oversight for the configuration control activities. '
   impact 0.3
   tag severity: 'low'
@@ -1547,7 +1547,7 @@ and configuration documentation; information system configuration settings and
 associated documentation; logical access approvals; physical access approvals;
 access credentials; change control records; information system audit records;
 other relevant documents or records'
-  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017, determined that the {{ system.owner }} CCB
+  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} {{ date }}, determined that the {{ system.owner }} CCB
 only has access to configuration control changes and access those changes by
 logging into GitHub with MFA authentication. '
   impact 0.3
@@ -1684,7 +1684,7 @@ and configuration documentation; information system configuration settings and
 associated documentation; logical access approvals; physical access approvals;
 access credentials; change control records; information system audit records;
 other relevant documents or records'
-  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017, determined that the {{ system.owner }} CCB
+  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} {{ date }}, determined that the {{ system.owner }} CCB
 only has access to the configuration control changes. '
   impact 0.3
   tag severity: 'low'
@@ -1827,7 +1827,7 @@ system configuration settings and associated documentation; security
 configuration checklists; evidence supporting approved deviations from
 established configuration settings; change control records; information system
 audit records; other relevant documents or records'
-  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017, determined that {{ system.owner }} uses CIS
+  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} {{ date }}, determined that {{ system.owner }} uses CIS
 benchmarks to establish and document configuration settings. '
   impact 0.3
   tag severity: 'low'
@@ -1974,7 +1974,7 @@ system configuration settings and associated documentation; security
 configuration checklists; evidence supporting approved deviations from
 established configuration settings; change control records; information system
 audit records; other relevant documents or records'
-  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017, determined that {{ system.owner }} has not
+  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} {{ date }}, determined that {{ system.owner }} has not
 identified or documented deviations.  However, if there were  deviations it
 would be captured in the {{ system.configuration_management.solution }} Playbook,  deviations will be tagged and a
 justification will be annotated within the associated task. '
@@ -2014,7 +2014,7 @@ system configuration settings and associated documentation; security
 configuration checklists; evidence supporting approved deviations from
 established configuration settings; change control records; information system
 audit records; other relevant documents or records'
-  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017, determined that {{ system.owner }}
+  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} {{ date }}, determined that {{ system.owner }}
 utlilizes the {{ system.configuration_management.solution }} Playbook to automate configuration settings. '
   impact 0.3
   tag severity: 'low'
@@ -2085,7 +2085,7 @@ system configuration settings and associated documentation; security
 configuration checklists; evidence supporting approved deviations from
 established configuration settings; change control records; information system
 audit records; other relevant documents or records'
-  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017, determined that {{ system.owner }} approved
+  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} {{ date }}, determined that {{ system.owner }} approved
 deviations are documented within the {{ system.configuration_management.solution }} Playbook, the deviation will be
 tagged and a justification will be annotated within the associated task.
 However, per review of RA-5 Compliance Scans determined that the compliance
@@ -2235,7 +2235,7 @@ plan; information system design documentation; information system configuration
 settings and associated documentation; security configuration checklists;
 change control records; information system audit records; other relevant
 documents or records'
-  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017, determined that {{ system.owner }}
+  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} {{ date }}, determined that {{ system.owner }}
 utlilizes the {{ system.configuration_management.solution }} Playbook to automate configuration settings. '
   impact 0.3
   tag severity: 'low'
@@ -2343,7 +2343,7 @@ security plan; information system design documentation; information system
 configuration settings and associated documentation; security configuration
 checklists; other relevant documents or records'
   desc  'fix', 'Per examination of Section 10.6 of the {{ system.owner }}
-Tenant - Mode 1 SSP Version 1.0 dated December 1, 2017, determined that the
+Tenant - Mode 1 SSP Version 1.0 dated {{ date }}, determined that the
 ports, protocols, and services are defined in Section 10.6.  '
   impact 0.3
   tag severity: 'low'
@@ -2420,7 +2420,7 @@ checklists; documented reviews of functions, ports, protocols, and/or services;
 change control records; information system audit records; other relevant
 documents or records'
   desc  'fix', 'Per examination of Section 10.6 of the {{ system.owner }}
-Tenant - Mode 1 SSP Version 1.0 dated December 1, 2017, determined that reviews
+Tenant - Mode 1 SSP Version 1.0 dated {{ date }}, determined that reviews
 quarterly to identify ports, protocols, and services are determined by {{ system.organization }} {{ system.platform }} Platform. '
   impact 0.3
   tag severity: 'low'
@@ -2505,7 +2505,7 @@ checklists; documented reviews of functions, ports, protocols, and/or services;
 change control records; information system audit records; other relevant
 documents or records'
   desc  'fix', 'Per examination of Section 10.6 of the {{ system.owner }}
-Tenant - Mode 1 SSP Version 1.0 dated December 1, 2017, determined that the
+Tenant - Mode 1 SSP Version 1.0 dated {{ date }}, determined that the
 ports, protocols, and services are defined. '
   impact 0.3
   tag severity: 'low'
@@ -2583,7 +2583,7 @@ security plan; information system design documentation; specifications for
 preventing software program execution; information system configuration
 settings and associated documentation; change control records; information
 system audit records; other relevant documents or records'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that CM-7(2) is inherited from {{ system.organization }} Security.  Therefore, this control is outside of the
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that CM-7(2) is inherited from {{ system.organization }} Security.  Therefore, this control is outside of the
 scope of this assessment. '
   impact 0.3
   tag severity: 'low'
@@ -2620,7 +2620,7 @@ information system; organizational processes for software program usage and
 restrictions; automated mechanisms preventing program execution on the
 information system; automated mechanisms supporting and/or implementing
 software program usage and restrictions'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that CM-7(2) is inherited from {{ system.organization }} Security.  Therefore, this control is outside of the
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that CM-7(2) is inherited from {{ system.organization }} Security.  Therefore, this control is outside of the
 scope of this assessment. '
   impact 0.3
   tag severity: 'low'
@@ -2657,7 +2657,7 @@ to execute on the information system; security configuration checklists; review
 and update records associated with list of unauthorized software programs;
 change control records; information system audit records; other relevant
 documents or records'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that CM-7(4) is inherited from {{ system.organization }} Security.  Therefore, this control is outside of the
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that CM-7(4) is inherited from {{ system.organization }} Security.  Therefore, this control is outside of the
 scope of this assessment. '
   impact 0.3
   tag severity: 'low'
@@ -2691,7 +2691,7 @@ system/network administratorsOrganizational process for identifying, reviewing,
 and updating programs not authorized to execute on the information system;
 organizational process for implementing blacklisting; automated mechanisms
 supporting and/or implementing blacklisting'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that CM-7(4) is inherited from {{ system.organization }} Security.  Therefore, this control is outside of the
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that CM-7(4) is inherited from {{ system.organization }} Security.  Therefore, this control is outside of the
 scope of this assessment. '
   impact 0.3
   tag severity: 'low'
@@ -2727,7 +2727,7 @@ to execute on the information system; security configuration checklists; review
 and update records associated with list of unauthorized software programs;
 change control records; information system audit records; other relevant
 documents or records'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that CM-7(4) is inherited from {{ system.organization }} Security.  Therefore, this control is outside of the
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that CM-7(4) is inherited from {{ system.organization }} Security.  Therefore, this control is outside of the
 scope of this assessment. '
   impact 0.3
   tag severity: 'low'
@@ -2762,7 +2762,7 @@ to execute on the information system; security configuration checklists; review
 and update records associated with list of unauthorized software programs;
 change control records; information system audit records; other relevant
 documents or records'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that CM-7(4) is inherited from {{ system.organization }} Security.  Therefore, this control is outside of the
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that CM-7(4) is inherited from {{ system.organization }} Security.  Therefore, this control is outside of the
 scope of this assessment. '
   impact 0.3
   tag severity: 'low'
@@ -2965,7 +2965,7 @@ component inventory
 information system component inventory; configuration management plan; security
 plan; information system inventory records; inventory reviews and update
 records; other relevant documents or records'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that the {{ system.owner }}
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that the {{ system.owner }}
 System Inventory is updated monthly. '
   impact 0.3
   tag severity: 'low'
@@ -3120,7 +3120,7 @@ settings and associated documentation; information system inventory records;
 alerts/notifications of unauthorized components within the information system;
 information system monitoring records; change control records; information
 system audit records; other relevant documents or records'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that  Slack notifications are
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that  Slack notifications are
 sent when there are system changes, and internal event alerts are generated
 from  Fluentd, Elastalert with ElasticSearch for aggregation and alerting, and
 Kibana.'
@@ -3199,7 +3199,7 @@ settings and associated documentation; information system inventory records;
 alerts/notifications of unauthorized components within the information system;
 information system monitoring records; change control records; information
 system audit records; other relevant documents or records'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that  the ISSO and ISSM are
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that  the ISSO and ISSM are
 notified when unauthorized components are detected. '
   impact 0.3
   tag severity: 'low'
@@ -3599,7 +3599,7 @@ organization process for controlling/documenting the use of peer-to-peer file
 sharing technology; automated mechanisms implementing software license
 tracking; automated mechanisms implementing and controlling the use of
 peer-to-peer files sharing technology'
-  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017, determined that {{ system.owner }} use open
+  desc  'fix', 'Per examination the {{ system.owner }} {{ system.platform.ssp }} {{ date }}, determined that {{ system.owner }} use open
 source for our managed services, applications, and 3rd party libraries, and
 ensure the licenses are compatible, and proprietary licensed software in use is
 New Relic and Trendmicro which is managed by the TTS contracting officer and
@@ -3704,7 +3704,7 @@ system design documentation; information system configuration settings and
 associated documentation; list of rules governing user installed software;
 information system monitoring records; information system audit records; other
 relevant documents or records; continuous monitoring strategy'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that  {{ system.owner }} utilizes
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that  {{ system.owner }} utilizes
 {{ system.configuration_management.solution }} to enforce software installation policies. '
   impact 0.3
   tag severity: 'low'
@@ -3773,7 +3773,7 @@ system design documentation; information system configuration settings and
 associated documentation; list of rules governing user installed software;
 information system monitoring records; information system audit records; other
 relevant documents or records; continuous monitoring strategy'
-  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} December 1, 2017 determined that  the SSP does not define the
+  desc  'fix', 'Per examination of the {{ system.owner }} {{ system.platform.ssp }} {{ date }} determined that  the SSP does not define the
 frequency that policy compliance is monitored. '
   impact 0.3
   tag severity: 'low'
