@@ -1,0 +1,3925 @@
+{
+    "plugins": {
+        "inspec-reporter-json-hdf": {
+            "include-attestations-file": {
+                "path": "./attestation-template-cms-ars-3.1-manual-controls-baseline.xlsx",
+                "type": "xlsx"
+            },
+            "attestations": [
+                {
+                    "control_id": "CMS-ARS-3.1-AC-01",
+                    "explanation": "(Sample text from json) Examined ARS 3.1 IS2P2 and HHS parent Access Control policy documents and interviewed staff to confirm that these are still applicable understood and applied to our system.",
+                    "frequency": "daily",
+                    "status": "passed",
+                    "updated": "2021-04-12",
+                    "updated_by": "(sample)John Doe, ISSO"
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-02",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-02(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-02(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-02(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-02(04)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-02(05)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-02(09)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-02(10)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-02(11)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-02(12)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-02(13)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-03",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-03(09)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-04",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-04(08)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-04(12)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-04(15)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-04(17)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-04(18)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-05",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-06",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-06(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-06(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-06(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-06(05)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-06(07)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-06(09)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-06(10)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-07",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-08",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-09",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-09(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-10",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-11",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-11(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-12",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-14",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-16",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-16(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-17",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-17(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-17(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-17(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-17(04)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-17(09)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-18",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-18(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-18(04)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-18(05)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-19",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-19(05)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-20",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-20(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-20(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-20(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-21",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AC-22",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AT-01",
+                    "explanation": "(Sample text from json) Examined ARS 3.1 IS2P2 and HHS parent Awareness Training policy documents and interviewed staff to confirm that these are still applicable understood and applied to our system.",
+                    "frequency": "daily",
+                    "status": "passed",
+                    "updated": "2021-04-12",
+                    "updated_by": "(sample)John Doe, ISSO"
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AT-02",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AT-02(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AT-03",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AT-04",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AU-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AU-02",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AU-02(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AU-03",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AU-03(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AU-03(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AU-04",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AU-05",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AU-05(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AU-05(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AU-06",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AU-06(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AU-06(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AU-06(05)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AU-06(06)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AU-06(10)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AU-07",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AU-07(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AU-07(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AU-08",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AU-08(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AU-09",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AU-09(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AU-09(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AU-09(04)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AU-10",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AU-10(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AU-11",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AU-12",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AU-12(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AU-12(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AU-16",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AU-16(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CA-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CA-02",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CA-02(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CA-02(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CA-02(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CA-03",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CA-03(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CA-03(05)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CA-05",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CA-05(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CA-06",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CA-07",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CA-07(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CA-08",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CA-08(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CA-09",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CA-09(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-02",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-02(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-02(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-02(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-02(06)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-02(07)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-03",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-03(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-03(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-03(06)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-04",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-04(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-04(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-05",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-05(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-05(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-05(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-06",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-06(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-06(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-07",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-07(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-07(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-07(04)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-07(05)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-07(05)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-08",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-08(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-08(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-08(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-08(04)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-08(05)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-09",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-10",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CM-11",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-02",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-02(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-02(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-02(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-02(04)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-02(05)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-02(08)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-03",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-03(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-04",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-04(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-04(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-04(04)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-06",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-06(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-06(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-06(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-07",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-07(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-07(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-07(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-07(04)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-08",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-08(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-08(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-08(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-08(04)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-09",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-09(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-09(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-09(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-09(05)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-10",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-10(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-CP-10(04)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IA-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IA-02",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IA-02(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IA-02(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IA-02(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IA-02(04)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IA-02(06)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IA-02(07)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IA-02(08)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IA-02(09)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IA-02(11)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IA-02(12)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IA-03",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IA-04",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IA-04(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IA-05",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IA-05(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IA-05(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IA-05(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IA-05(11)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IA-06",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IA-07",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IA-08",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IA-08(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IA-08(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IA-08(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IA-08(04)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IR-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IR-02",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IR-02(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IR-02(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IR-03",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IR-03(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IR-03(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IR-04",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IR-04(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IR-04(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IR-04(04)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IR-04(06)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IR-04(07)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IR-05",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IR-05(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IR-06",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IR-06(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IR-07",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IR-07(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IR-07(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IR-08",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IR-09",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IR-09(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IR-09(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IR-09(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IR-09(04)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IR-10",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-MA-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-MA-02",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-MA-02(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-MA-03",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-MA-03(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-MA-03(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-MA-03(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-MA-04",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-MA-04(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-MA-04(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-MA-04(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-MA-04(06)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-MA-05",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-MA-05(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-MA-06",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-MP-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-MP-02",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-MP-03",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-MP-04",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-MP-05",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-MP-05(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-MP-05(04)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-MP-06",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-MP-06(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-MP-06(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-MP-06(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-MP-06(08)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-MP-07",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-MP-07(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-MP-08",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-MP-08(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-MP-CMS-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PE-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PE-02",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PE-02(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PE-03",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PE-03(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PE-04",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PE-05",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PE-06",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PE-06(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PE-06(04)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PE-08",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PE-08(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PE-09",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PE-10",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PE-11",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PE-11(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PE-12",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PE-13",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PE-13(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PE-13(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PE-13(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PE-14",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PE-15",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PE-15(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PE-16",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PE-17",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PE-18",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PE-18(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PL-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PL-02",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PL-02(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PL-04",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PL-04(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PL-08",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PS-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PS-02",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PS-03",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PS-03(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PS-04",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PS-04(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PS-05",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PS-06",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PS-07",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PS-08",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-RA-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-RA-02",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-RA-03",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-RA-05",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-RA-05(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-RA-05(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-RA-05(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-RA-05(04)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-RA-05(05)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SA-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SA-02",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SA-03",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SA-04",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SA-04(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SA-04(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SA-04(08)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SA-04(09)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SA-04(10)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SA-05",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SA-08",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SA-09",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SA-09(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SA-09(05)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SA-10",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SA-10(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SA-11",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SA-11(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SA-11(05)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SA-11(08)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SA-12",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SA-13",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SA-15",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SA-15(09)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SA-16",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SA-17",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SA-21",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SA-22",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-02",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-03",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-03(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-03(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-03(04)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-03(05)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-04",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-05",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-07",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-07(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-07(04)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-07(05)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-07(07)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-07(08)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-07(14)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-07(18)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-07(21)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-08",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-08(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-08(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-10",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-12",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-12(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-13",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-15",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-15(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-17",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-18",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-19",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-20",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-21",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-22",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-23",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-24",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-28",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-28(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-32",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-39",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-CMS-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SC-CMS-02",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-02",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-02(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-02(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-02(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-03",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-03(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-03(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-04",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-04(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-04(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-04(03)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-04(04)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-04(05)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-04(14)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-04(16)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-04(23)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-04(24)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-05",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-05(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-06",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-06(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-07",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-07(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-07(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-07(05)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-07(06)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-07(07)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-07(14)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-08",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-08(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-08(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-10",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-11",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-12",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SI-16",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PM-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PM-02",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PM-03",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PM-04",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PM-05",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PM-06",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PM-07",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PM-08",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PM-09",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PM-10",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PM-11",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PM-12",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PM-13",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PM-14",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PM-15",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-PM-16",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AP-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AP-02",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AP-CMS-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AR-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AR-02",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AR-03",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AR-04",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AR-05",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AR-06",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AR-07",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AR-08",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-AR-CMS-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-DI-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-DI-01(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-DI-01(02)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-DI-02",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-DI-02(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-DI-CMS-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-DM-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-DM-01(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-DM-02",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-DM-02(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-DM-03",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-DM-03(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-DM-CMS-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IP-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IP-01(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IP-02",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IP-03",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IP-04",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IP-04(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-IP-CMS-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SE-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SE-02",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-SE-CMS-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-TR-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-TR-01(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-TR-02",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-TR-02(01)",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-TR-03",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-TR-CMS-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-UL-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-UL-02",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                },
+                {
+                    "control_id": "CMS-ARS-3.1-UL-CMS-01",
+                    "explanation": "",
+                    "frequency": "",
+                    "status": "",
+                    "updated": "",
+                    "updated_by": ""
+                }
+            ]
+        }
+    },
+    "version": "1.2"
+}

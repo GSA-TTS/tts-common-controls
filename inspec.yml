@@ -1,0 +1,10 @@
+name: tts-common-controls
+title: tts-common-controls
+maintainer: https://handbook.tts.gsa.gov/tech-portfolio/
+copyright: Public Domain (CC0)
+copyright_email: devops@gsa.gov
+summary: "GSA Technology Transformation Service (TTS) Common Controls Baseline and Attestations Profile"
+license: CC0
+Description: "(TTS) Common Controls Baseline and Attestations Profile"
+version: 1.0.0
+inspec_version: ">= 4.0"
