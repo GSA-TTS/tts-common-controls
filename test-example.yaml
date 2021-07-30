@@ -1,0 +1,71 @@
+name: aws-foundations-cis-baseline
+title: aws-foundations-cis-baseline
+maintainer: MITRE InSpec Team
+copyright: MITRE, 2020
+copyright_email: inspec@mitre.org
+license: Apache-2.0
+summary: 'InSpec Validation Profile for AWS Foundations CIS'
+version: 1.2.2
+inspec_version: ">= 4.0"
+supports:
+  - platform: aws
+
+depends:
+  - name: inspec-aws
+    url: https://github.com/inspec/inspec-aws/archive/master.tar.gz
+
+inputs:
+  - name: default_aws_region
+    description: 'primary aws region your resources are deployed.'
+    value: 'us-east-1'
+    sensitive: true
+
+  - name: aws_key_age
+    description: 'The maximum allowed key age'
+    type: Numeric
+    value: 90
+
+  - name: pwd_length
+    description: 'Required password length'
+    type: Numeric
+    value: 14
+
+  - name: aws_cred_age
+    description: 'The maximum allowed IAM account age'
+    type: Numeric
+    value: 90
+
+  - name: exception_bucket_list
+    description: 'list of buckets exempted from inspection'
+    type: Array
+    value:
+      - 'exception_bucket_name'
+
+  - name: exception_security_group_list
+    description: 'list of security groups exempted from inspection'
+    type: Array
+    value:
+      - 'exception_security_group_name'
+
+  - name: service_account_mfa_exceptions
+    description: 'list of service accounts which are exempt from the MFA requirement'
+    type: Array
+    value:
+      - 'service_account_mfa_exceptions'
+
+  - name: config_delivery_channels
+    description: 'Config service settings'
+    type: Hash
+    value:
+      us-east-1:
+        s3_bucket_name: s3_bucket_name_value
+        sns_topic_arn: sns_topic_arn_value
+      us-east-2:
+        s3_bucket_name: s3_bucket_name_value
+        sns_topic_arn: sns_topic_arn_value
+      us-west-1:
+        s3_bucket_name: s3_bucket_name_value
+        sns_topic_arn: sns_topic_arn_value
+      us-west-2:
+        s3_bucket_name: s3_bucket_name_value
+        sns_topic_arn: sns_topic_arn_value

@@ -1,17 +1,39 @@
-# .github
+# Technology Transformation Services (TTS) Common Control Platform
 
+This repository is for system owners at TTS, to help them reduce the burden of their narrative-writing for security controls when working on their Authority to Operate (ATO). This will be most useful when drafting a System Security Plan (SSP) ahead of an assessment, for initial launch and re-assessment.
 
-# cms-ars-3.1-manual-controls-baseline
-InSpec profile baseline to **automate manual controls** of [CMS ARS 3.1](https://www.cms.gov/Research-Statistics-Data-and-Systems/CMS-Information-Technology/InformationSecurity/Info-Security-Library-Items/ARS-31-Publication.html), validating any/all of its 489 security controls. 
+By having well-defined components with good security compliance baked in and their associated security control narratives, system owners can pull in that information for reuse during their assessment, and reduce the amount they need to implement, monitor, manage, and validate up through assessment.
 
-## Getting Started  
+## MVP
+The minimum viable product is an automatically generated artifact (spreadsheet, document in a human readable format) that can be immediately used by TTS System’s to fill out their System Security Plan (SSP) as part of their Authority to Operate (ATO).
+
+## Concepts
+[`baselines`](/baselines) contained in this repo provide the control baseline for the **automated and manual tests for these controls**  validating the security controls managed under the TTS Common Control Program.
+
+## Usage
+You as the TTS System will be responsible for using the results from the tests contained in this repository. The Customer Responsibility Matrix (CRM) for SaaS products and IaaS Cloud Service Providers products in use at TTS have been compiled here for you and their implementation (as well as the test to validate these implementations). 
+
+This repository can be used in multiple ways, either by:
+1. Taking output of the test results and copy and paste this information into your SSP
+2. Provide a URI link to copy and paste as a reference in your system's SSP.
+TBD
+1. Provide a manual attestation for a control implementation
+2. Provide an automated test to serve as attestation for a control implementation
+
+## Getting Started
+The TTS Tech Portfolio conducts these scans as part of our continuous integration (planned implementation). We can coordinate with your assigned ISSO/ISSM to provide them the results, attestation, audit reporting required for your System's (A&A process) and ultimate Authority to Operate (ATO). 
+
+TBD open a github issue to request an coordination; feel free to reach out to use in Slack `#tts-tech-portfolio` or by email `tts-tech-portfolio@gsa.gov` to discuss/coordinate.
 
 ### InSpec (CINC-auditor) setup
-For maximum flexibility/accessibility, we’re moving to “cinc-auditor”, the open-source packaged binary version of Chef InSpec, compiled by the CINC (CINC Is Not Chef) project in coordination with Chef using Chef’s always-open-source InSpec source code. For more information: https://cinc.sh/
+
+This repository uses a fork of [Chef InSpec](https://docs.chef.io/inspec/resources/).
+
+For maximum flexibility/accessibility, we’re using “cinc-auditor”, the open-source packaged binary version of Chef InSpec, compiled by the CINC (CINC Is Not Chef) project in coordination with Chef using Chef’s always-open-source InSpec source code. For more information: https://cinc.sh/
 
 It is intended and recommended that CINC-auditor and this profile be run from a __"runner"__ host (such as a DevOps orchestration server, an administrative management system, or a developer's workstation/laptop). This can be any Unix/Linux/MacOS or Windows runner host, with access to the Internet.
 
-__For the best security of the runner, always install on the runner the _latest version_ of CINC-auditor.__ 
+For the best security of the runner, always install on the runner the _latest version_ of CINC-auditor. Whenever running a remote script you are responsible for reviewing the script first before executing **https://omnitruck.cinc.sh/install.sh**
 
 __The simplest way to install CINC-auditor is to use this command for a UNIX/Linux/MacOS runner platform:__
 ```
@@ -144,7 +166,7 @@ The JSON results output file can be loaded into __[heimdall-lite](https://heimda
 The JSON InSpec results file may also be loaded into a __[full heimdall server](https://github.com/mitre/heimdall)__, allowing for additional functionality such as to store and compare multiple profile runs.
 
 ## Authors
-
+[tts-tech-portfolio@gsa.gov](https://handbook.tts.gsa.gov/tech-portfolio/)
 
 ## Contributing and Getting Help
 To report a bug or feature request, please open an [issue](https://github.com/18f/tts-common-controls/issues/new).
